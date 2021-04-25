@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/how_to_play_background_image"
+	>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#ECE3E3"
+		android:text="Welcome to snake and ladders! \n\nSome background information about the game: it is an ancient Indian board game regarded today as a worldwide classic. It is played between two or more players on a gameboard having numbered, gridded squares. A number of ladders and snakes are pictured on the board, each connecting two specific board squares.
+The game is a simple race based on sheer luck, and is popular with young children. \n\n How to play: press roll and the die will automatically will role and your character will move accordingly. \n\nWin condition : reach the top left square of the board."
+		/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="close"
+		android:layout_gravity="center"
+		android:id="@+id/btnClose"
+		/>
+
+</LinearLayout>

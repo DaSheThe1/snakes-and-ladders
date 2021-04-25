@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_music"
+        android:title="Music"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+    <item
+        android:id="@+id/action_battery"
+        android:title="Battery"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        tools:ignore="AppCompatResource" />
+</menu>
